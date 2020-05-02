@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" class="md device-pixel-ratio-1 device-desktop device-windows">
+<head>
+<title>Login</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+<link rel="shortcut icon" href="./css/favicon.ico" type="image/x-icon" />
+<link href="./font-awesome.min.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="./css/framework7.bundle.min.css">
+<link rel="stylesheet" href="./css/app.css">
+<style>
+.button-ajab-grad{
+background: #8A2387;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.nav-ajab-title-head{
+background: #8A2387;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color:#fff;
+}
+</style>
+</head>
+<body>
+<div id="app" class="framework7-root">
+<div class="panel-backdrop"></div>
+<div class="view view-main view-init view-right" data-name="right" data-url="/">
+
+<div class="page page-current">
+<div class="navbar">
+<div class="navbar-bg"></div>
+<div class="navbar-inner sliding nav-ajab-title-head">
+
+<div class="title">Login</div>
+</div>
+</div>
+<div class="page-content">
+
+<div class="list no-hairlines-md" style="margin-top:0px;">
+<ul>
+
+
+<li class="item-content item-input">
+
+<div class="item-inner">
+<div class="item-title item-floating-label">User ID</div>
+<div class="item-input-wrap">
+<input type="text" placeholder="Your user ID" id="userid">
+<span class="input-clear-button"></span>
+</div>
+</div>
+</li>
+
+<li class="item-content item-input">
+
+<div class="item-inner">
+<div class="item-title item-floating-label">Password</div>
+<div class="item-input-wrap">
+<input type="text" placeholder="Your password" id="password">
+<span class="input-clear-button"></span>
+</div>
+</div>
+</li>
+
+
+</ul>
+     <a class="item-content item-link" >
+    <div class="block" style="text-align:center;margin:0px;border:none;padding:10px 0px;width: 100%;">
+<button class="col button button-large button-round button-fill button-ajab-grad" style="width:auto;padding:0px 50px;display:inline-block;" onclick="login()">Login</button>
+    </div></a>
+    
+    <a class="item-content " href="/login/">singup here</a>
+    <a class="item-content"  href="/settings/">Settings</a>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+<script src="./js/framework7.min.js"></script>
+<script src="./js/routes.js"></script>
+<script src="./js/app.js"></script>
+<script type="text/javascript" src="./js/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="./js/register.js"></script>
+<script type="text/javascript" src="./js/navigator.js"></script>
+</body></html>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--https://github.com/phonegap/phonegap-start/blob/master/www/config.xml-->
+<widget xmlns="http://www.w3.org/ns/widgets" 
+        xmlns:cdv="http://cordova.apache.org/ns/1.0" 
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id="com.app.feedback" 
+        versionCode = "100" 
+        version="1">
+    <name>Feedback</name>
+    <description>
+        A Complete Feedback Solutions
+    </description>
+    <author email="saagarbethi@gmail.com" href="www.feedback.com">
+        Feedback Solutions
+    </author>
+    <content src="index.html"/>
+    <preference name="permissions" value="none" />
+    <preference name="orientation" value="default" />
+    <preference name="target-device" value="universal" />
+    <preference name="webviewbounce" value="true" />
+    <preference name="prerendered-icon" value="true" />
+    <preference name="stay-in-webview" value="false" />
+    <preference name="ios-statusbarstyle" value="black-opaque" />
+    <preference name="detect-data-types" value="true" />
+    <preference name="exit-on-suspend" value="false" />
+    <preference name="show-splash-screen-spinner" value="true" />
+    <preference name="android-minSdkVersion" value="15" />
+    <preference name="android-targetSdkVersion" value="26"/> 
+    <preference name="android-installLocation" value="auto" />
+    <preference name="LoadingDialog" value="Please wait, the app is loading"/>
+    <preference name="AllowInlineMediaPlayback" value="true"/>
+    <preference name="KeepRunning" value="true"/>
+    
+    
+   <plugin name="cordova-plugin-x-toast" spec="^2.7.2" />
+    <plugin name="cordova-plugin-dialogs" spec="^2.0.1" />
+    <plugin name="cordova-plugin-nativestorage" spec="^2.3.2" />
+    <plugin name="cordova-plugin-device" spec="^2.0.2" />
+    <plugin name="cordova-plugin-whitelist" spec="^1.3.3" />
+ 
+    
+    <access origin="*"  />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-navigation href="*"/>
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <preference name="android-build-tool" value="gradle" /> 
+    <preference name="phonegap-version" value="cli-6.5.0" />
+</widget>
